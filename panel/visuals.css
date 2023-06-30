@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #1c2431;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #candidates {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin: 0 0 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1c2431;
+    text-align: center;
+  }
+  
+  #candidate-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .candidate-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .candidate-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .candidate-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .candidate-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1c2431;
+  }
+  
+  .vote-percentage {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+  }
+  
+  #chart-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

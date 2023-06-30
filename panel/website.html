@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Turkey Seçim Sonuçları</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="turkish-flag.png" alt="Turkish Flag" id="turkish-flag">
+    <h1>Seçim Sonuçları</h1>
+  </header>
+  
+  <main>
+    <section id="candidates">
+      <h2>Adaylar</h2>
+      <div id="candidate-list"></div>
+    </section>
+    
+    <section id="results">
+      <h2>Sonuç Grafiği</h2>
+      <div id="chart-container">
+        <canvas id="chart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; felixxy</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

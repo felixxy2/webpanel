@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #1a237e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#turkish-flag {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+main {
+  padding: 20px;
+}
+
+#candidates {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a237e;
+  text-align: center;
+}
+
+#candidate-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.candidate-item {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.candidate-item:hover {
+  transform: translateY(-5px);
+}
+
+.candidate-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.candidate-name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+.vote-count {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.candidate-info {
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.candidate-item:hover .candidate-info {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.party-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-pixelated;
+  image-rendering: pixelated;
+}
+
+.candidate-party {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 0;
+}
+
+#chart-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #1a237e;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
